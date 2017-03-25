@@ -11,6 +11,7 @@ function getTriangleArea(a, h) {
       console.log('Nieprawidłowe dane'),
       alert('Nieprawidłowe dane');
     }
+    return triangleArea;
 }
 
 console.log(getTriangleArea(10, 6));
